@@ -1,6 +1,6 @@
 {
   "name": "trap_util",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Util funcstions faster than lodash and underscore",
   "main": "build/index.js",
   "scripts": {
