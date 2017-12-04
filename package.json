@@ -1,0 +1,45 @@
+{
+  "name": "trap",
+  "version": "1.0.0",
+  "description": "Util funcstions faster than lodash and underscore",
+  "main": "build/index.js",
+  "scripts": {
+    "dev":"watch 'npm run build' src",
+    "build": "babel src -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjdalsvndn9/trap_npm_package.git"
+  },
+  "keywords": [
+    "functional",
+    "javascript",
+    "library",
+    "underscore",
+    "lodash",
+    "util",
+    "functionalprogramming",
+    "programming",
+    "es6",
+    "reduce",
+    "filter",
+    "map"
+  ],
+  "author": "Sungmin Yi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tjdalsvndn9/trap_npm_package/issues"
+  },
+  "homepage": "https://github.com/tjdalsvndn9/trap_npm_package#readme",
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "watch": "^1.0.2"
+  }
+}
