@@ -1,15 +1,15 @@
 ## Setup
 ```
-$ npm install trap --save
+$ npm install trap_util --save
 ```
 ```
 Node js
 
-const Trap = require('trap');
-const {map$} = require('trap');
+const Trap = require('trap_util');
+const {map$} = require('trap_util');
 
 React/Vue/Angular5
 
-import Trap from 'trap';
-import {map$} from 'trap';
+import Trap from 'trap_util';
+import {map$} from 'trap_util';
 ```
