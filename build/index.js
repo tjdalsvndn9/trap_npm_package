@@ -231,28 +231,28 @@ var compose$ = function compose$(array, accumulator) {
   }, accumulator);
 };
 
-// module.exports ={
-//  map$,
-//  filter$,
-//  pure$,
-//  shuffle$,
-//  indexBy$,
-//  sortBy$,
-//  pluck$,
-//  min$,
-//  max$,
-//  findAll$,
-//  findLast$,
-//  findFirst$,
-//  filterAndMap$,
-//  mapAndFilter$,
-//  compact$,
-//  intersection$,
-//  difference$,
-//  deepInteraction$,
-//  deepDifference$,
-//  mean$,
-//  naiveFlatten$,
-//   deepFlatten$,
-//   compose$
-// }
+module.exports = {
+  map$: map$,
+  filter$: filter$,
+  pure$: pure$,
+  shuffle$: shuffle$,
+  indexBy$: indexBy$,
+  sortBy$: sortBy$,
+  pluck$: pluck$,
+  min$: min$,
+  max$: max$,
+  findAll$: findAll$,
+  findLast$: findLast$,
+  findFirst$: findFirst$,
+  filterAndMap$: filterAndMap$,
+  mapAndFilter$: mapAndFilter$,
+  compact$: compact$,
+  intersection$: intersection$,
+  difference$: difference$,
+  deepInteraction$: deepInteraction$,
+  deepDifference$: deepDifference$,
+  mean$: mean$,
+  naiveFlatten$: naiveFlatten$,
+  deepFlatten$: deepFlatten$,
+  compose$: compose$
+};

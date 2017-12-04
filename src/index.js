@@ -226,28 +226,28 @@ return array.reduce((acc,fn) => {
 
 
 
-// module.exports ={
-//  map$,
-//  filter$,
-//  pure$,
-//  shuffle$,
-//  indexBy$,
-//  sortBy$,
-//  pluck$,
-//  min$,
-//  max$,
-//  findAll$,
-//  findLast$,
-//  findFirst$,
-//  filterAndMap$,
-//  mapAndFilter$,
-//  compact$,
-//  intersection$,
-//  difference$,
-//  deepInteraction$,
-//  deepDifference$,
-//  mean$,
-//  naiveFlatten$,
-//   deepFlatten$,
-//   compose$
-// }
+module.exports ={
+ map$,
+ filter$,
+ pure$,
+ shuffle$,
+ indexBy$,
+ sortBy$,
+ pluck$,
+ min$,
+ max$,
+ findAll$,
+ findLast$,
+ findFirst$,
+ filterAndMap$,
+ mapAndFilter$,
+ compact$,
+ intersection$,
+ difference$,
+ deepInteraction$,
+ deepDifference$,
+ mean$,
+ naiveFlatten$,
+  deepFlatten$,
+  compose$
+}
