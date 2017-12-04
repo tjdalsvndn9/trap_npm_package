@@ -15,6 +15,7 @@ import {map$} from 'trap_util';
 ```
 
 
+<!-- //npm version patch -->
 <!-- # JavaScript Templates
 
 ## Demo
