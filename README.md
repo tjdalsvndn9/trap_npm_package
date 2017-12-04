@@ -1,5 +1,5 @@
 ## Setup
-```
+``` 
 $ npm install trap_util --save
 ```
 ```
